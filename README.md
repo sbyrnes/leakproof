@@ -32,7 +32,7 @@ First, be sure you have installed Node, v0.6 or later.
 
 Clone this repository and then you can use Leakproof from the command line as follows:
 
-leakproof.sh <PAYLOAD_FILENAME> <EMAILLIST_FILENAME>
+    leakproof.sh PAYLOAD_FILENAME EMAILLIST_FILENAME
 
 This will send the PAYLOAD to everyone on the EMAILLIST.  
 The PAYLOAD file should be a plain text file.
@@ -40,4 +40,4 @@ The EMAILLIST_FILENAME should be a text file with a comma delimited list of emai
 
 Given a block of leaked text, you can determine the email address it was sent to using the following:
 
-unleak.sh <LEAK_FILENAME>
+    unleak.sh LEAK_FILENAME
