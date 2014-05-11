@@ -41,3 +41,13 @@ The EMAILLIST_FILENAME should be a text file with a comma delimited list of emai
 Given a block of leaked text, you can determine the email address it was sent to using the following:
 
     unleak.sh LEAK_FILENAME
+
+Mathematical Considerations
+=========
+There is an interesting relationship between the amount of text, the number of recipients and how capable this system is of identifying traitors.
+
+Of a document of N features (features comprising both words, punctuation and spacings) sent to M recipients, there are the following relationships.
+
+A group of traitors would need to be bigger than ____ to be able to identify all identifying features through cross comparisons of their text.
+
+A segment of leaked text would need to be at least ____ to be able to uniquely identify the individual that it came from. 
